@@ -18,6 +18,6 @@ mongoose.connect(process.env.MONGO_URI)
     })
 }).catch(err => console.error('MongoDB connection error:', err));
 app.get('/', (req, res) => {
-    res.send('Welcome to the Idea Logger API!');
+    res.send('Welcome to the Idea Logger API - Use /api/ideas to add and get ideas best of Luck with your project testing ');
   });
   
